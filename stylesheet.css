@@ -27,21 +27,26 @@ body{
 }
 
 .resume{
-	width:1350px;
-	height: auto;
+	width:1300px;
+	height: 100%;
 	display:flex;
-	margin:50px auto;
+	margin: auto;
 	padding-top: auto;
 	padding-bottom:auto;
+	
 	
 
 }
 .resume .resume_left{
 	
 	
-	width:30%;
-	background: hsl(214, 93%, 23%);
+	width:33%;
+	background:rgb(26, 44, 53);
 	float:left;
+	height: 1800px;
+	border-radius: 32px;
+	height: 1675px;
+
 
 
 }
@@ -50,11 +55,17 @@ body{
 	width:100%;
 	height:400px;
 
+
 }
 .resume .resume_left .resume_profile img{
-	width:100%;
+	/* width:100%;
 	height:100%;
-	
+	 */
+	 width: 98%;
+	 height: 112%;
+	 border-radius: 500px;
+	 padding: 44px;
+
 
 }
 .resume .resume_left .resume_content{
@@ -69,6 +80,8 @@ body{
 
 .resume .resume_left .regular{
 	color:white;
+	font-size: 20px;
+
 
 }
 .resume .resume_item{
@@ -90,14 +103,17 @@ body{
 	margin-bottom: 0;
 }
  .icon{
-		width:35px;
-		height: 35px;
-		background:#fff;
-		color:#233143;
-		border-radius: 50%;
-		margin-right:10px;
-		font-size: 16px;
-		position: relative;
+    width: 46px;
+    height: 35px;
+    background: #fff;
+    color: #233143;
+    border-radius: 50%;
+    margin-right: 20px;
+    font-size: 25px;
+    position: relative;
+}
+#address{
+	padding-left: 24px ;
 }
 .resume .icon i,
 .resume_hobby ul li i{
@@ -108,7 +124,7 @@ body{
 }
 .resume .resume_left ul li .data{
 	color: white;
-	font-size: 20px;
+	font-size: 23px;
 }
 .resume .resume_left .resume_skills ul li{
 	color: white;
@@ -119,7 +135,7 @@ body{
 	font-size: 20px;
 }
 .resume .resume_left .resume_skills ul li .skill_progress{
-	width: 50%;
+	width: 35%;
 	margin:10px;
 	margin-bottom: 10px;
 	height:10px;
@@ -163,6 +179,7 @@ body{
 }
 .resume .resume_right  ul li .info{
 	margin-bottom: 20px;
+	
 	
 }
 .resume .resume_right  ul li:last-child .info{
@@ -218,6 +235,7 @@ body{
 .t{
 	padding-left: 26%;
 	padding-right: 26%;
+	padding-top: 62px;
 }
 .info{
 	font-size: 17px;
@@ -228,4 +246,11 @@ body{
 }
 .text{
 	font-size:17px;
+}
+#image-area{
+	position: relative;
+}
+#image-position{
+	position: absolute;
+	top: -17px;
 }
